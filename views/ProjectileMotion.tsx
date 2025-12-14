@@ -200,7 +200,8 @@ export const ProjectileMotion: React.FC = () => {
              
              <div>
                <label className="text-xs text-slate-400 flex justify-between mb-2">
-                 <span>Launch Angle ($\theta$)</span>
+                 {/* Fixed: Use Unicode theta instead of \theta to avoid build syntax errors */}
+                 <span>Launch Angle (θ)</span>
                  <span className="text-white font-mono">{simConfig.angle}°</span>
                </label>
                <input 

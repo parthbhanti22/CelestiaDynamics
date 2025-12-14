@@ -118,7 +118,8 @@ export const BlackHoleSimulation: React.FC = () => {
 
           <div className="mb-6">
             <label className="flex justify-between text-sm text-slate-300 mb-2">
-              <span>Mass ($M_{\odot}$)</span>
+              {/* Fixed: Use Unicode circle dot instead of \odot to avoid build syntax errors */}
+              <span>Mass (M<sub>☉</sub>)</span>
               <span className="font-mono text-cyan-300">{simConfig.mass}</span>
             </label>
             <input
