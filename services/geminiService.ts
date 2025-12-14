@@ -1,18 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 
-// Safely retrieve API key, handling environments where 'process' might be undefined
-const getApiKey = () => {
-  try {
-    if (typeof process !== 'undefined' && process.env) {
-      return process.env.API_KEY || '';
-    }
-  } catch (e) {
-    // Ignore reference errors
-  }
-  return '';
-};
-
-const apiKey = getApiKey();
+// The API key must be obtained exclusively from the environment variable process.env.API_KEY.
+const apiKey = process.env.API_KEY || "";
 
 let ai: GoogleGenAI | null = null;
 
