@@ -98,10 +98,10 @@ export const About: React.FC = () => {
                          <a href="https://github.com/parthbhanti22" target="_blank" rel="noreferrer" className="bg-white text-black p-3 hover:bg-cyan-400 transition-colors">
                              <Github size={20} />
                          </a>
-                         <a href="#" className="bg-white text-black p-3 hover:bg-blue-600 hover:text-white transition-colors">
+                         <a href="https://www.linkedin.com/in/parthbhanti" className="bg-white text-black p-3 hover:bg-blue-600 hover:text-white transition-colors">
                              <Linkedin size={20} />
                          </a>
-                         <a href="#" className="bg-white text-black p-3 hover:bg-red-500 hover:text-white transition-colors">
+                         <a href="parthbhanti22@gmail.com" className="bg-white text-black p-3 hover:bg-red-500 hover:text-white transition-colors">
                              <Mail size={20} />
                          </a>
                      </div>
