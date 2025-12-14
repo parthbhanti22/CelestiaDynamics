@@ -1,0 +1,7 @@
+{
+  "name": "Celestia Dynamics",
+  "description": "High-end educational physics platform featuring interactive 3D simulations of black holes, cosmic scales, and quantum mechanics, powered by Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
